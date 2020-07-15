@@ -186,7 +186,22 @@ p {
 .t7,
 .t8 {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    transition: ease 0.4s all;
+}
+
+.t1:hover,
+.t2:hover,
+.t3:hover,
+.t4:hover,
+.t5:hover,
+.t6:hover,
+.t7:hover,
+.t8:hover {
+    filter: none;
+    -webkit-filter: none;
 }
 
 .t1 {
