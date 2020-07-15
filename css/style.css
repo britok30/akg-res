@@ -57,14 +57,6 @@ ul {
 /* HEADIMGS  */
 /*-------------------------------------------*/
 
-h1 {
-    font-size: 8rem;
-    color: var(--color-white);
-    font-weight: 100;
-    text-transform: uppercase;
-    line-height: 1.8;
-}
-
 h2 {
     font-size: 3.5rem;
     color: var(--color-light-grey);
@@ -105,19 +97,22 @@ p {
         ),
         url(../img/hero-1.jpg) center center/cover no-repeat;
     height: 100vh;
-    margin-top: -10rem;
 }
 
 .hero-text-box {
     padding: 5rem 5rem;
     margin-top: 10rem;
-    text-align: center;
+}
+
+.hero-lead {
+    font-size: 10rem;
+    font-weight: 100;
+    margin: auto;
 }
 
 .navbar {
     text-transform: uppercase;
     font-size: 1.3rem;
-    padding-top: 12rem;
 }
 
 .hero-logo {
@@ -137,7 +132,6 @@ p {
     margin-top: 2rem;
     height: 80vh;
     max-width: 100%;
-    border-radius: 5rem;
 }
 
 /*-------------------------------------------*/
@@ -145,7 +139,7 @@ p {
 /*-------------------------------------------*/
 
 #invest img {
-    border-radius: 4rem;
+    border-radius: 1rem;
 }
 
 .hg-list img {
@@ -205,7 +199,7 @@ p {
 .g-photo {
     width: 100%;
     padding: 3rem;
-    border-radius: 4rem;
+    border-radius: 1rem;
 }
 
 #gallery .text {
