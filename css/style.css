@@ -355,16 +355,9 @@ p {
     }
 
     /* Invest  */
-
-    #invest .hg-list {
-        display: block;
-        margin-left: 5.5rem;
-        width: 100%;
-        padding-bottom: 4rem;
-    }
-
-    #invest .exclusive {
-        padding-bottom: 4rem;
+    .img-1 {
+        background: url(../img/interior.jpg) center center/cover no-repeat;
+        height: 100px
     }
 
     /* Feature  */
