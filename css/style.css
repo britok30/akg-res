@@ -144,6 +144,10 @@ p {
     width: 100%;
 }
 
+.showcase {
+    cursor: pointer;
+}
+
 .height {
     height: 48.3vh;
 }

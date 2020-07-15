@@ -9,25 +9,22 @@ ScrollReveal().reveal(".navbar", {
     origin: "bottom",
     distance: "10px",
 });
-ScrollReveal().reveal(".about-us", {
-    duration: 2000,
-    origin: "top",
-    distance: "10px",
-    delay: 1000,
-});
-ScrollReveal().reveal(".location", {
+ScrollReveal().reveal(".design-lead", {
     duration: 2000,
     origin: "top",
     distance: "10px",
     delay: 1000,
 });
 
-ScrollReveal().reveal("#feature .f-logo", {
+ScrollReveal().reveal("p", {
     duration: 2000,
-    origin: "bottom",
+    origin: "top",
     distance: "10px",
-    delay: 1000,
+    delay: 2000,
 });
+
+
+
 ScrollReveal().reveal("#footer .hero-logo", {
     duration: 2000,
     origin: "bottom",
