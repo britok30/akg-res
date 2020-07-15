@@ -40,6 +40,10 @@ ul {
     margin: 20rem 0;
 }
 
+.whitespace-2 {
+    margin: 2rem 0;
+}
+
 /*-------------------------------------------*/
 /* HEADIMGS  */
 /*-------------------------------------------*/
@@ -138,14 +142,15 @@ p {
 
 .losangeles,
 .luxury-1,
-.luxury-3,
-.showcase {
+.luxury-3 {
     height: 100%;
     width: 100%;
 }
 
 .showcase {
     cursor: pointer;
+    height: 50%;
+    width: 50%;
 }
 
 .height {

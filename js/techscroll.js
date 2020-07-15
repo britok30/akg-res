@@ -23,8 +23,6 @@ ScrollReveal().reveal("p", {
     delay: 2000,
 });
 
-
-
 ScrollReveal().reveal("#footer .hero-logo", {
     duration: 2000,
     origin: "bottom",
