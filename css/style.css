@@ -59,8 +59,13 @@ ul {
 /*-------------------------------------------*/
 
 p {
-    font-size: 1.3rem;
+    font-size: 3rem;
     font-weight: 100;
+}
+
+.design-p {
+    font-size: 5rem;
+    font-weight: 400;
 }
 
 .about-us {
@@ -78,6 +83,22 @@ p {
     transform: translate(-50%, -50%);
     width: 100%;
 }
+/*-------------------------------------------*/
+/* SECTION BUTTON */
+/*-------------------------------------------*/
+.btn-contact {
+    font-weight: 100;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 /*-------------------------------------------*/
 /* HEADER  */
 /*-------------------------------------------*/
@@ -119,13 +140,34 @@ p {
 }
 
 /*-------------------------------------------*/
-/* SECTION INVEST */
+/* SECTION MISC */
 /*-------------------------------------------*/
 
 .losangeles,
-.luxury-1 {
+.luxury-1,
+.luxury-3 {
     height: 100%;
     width: 100%;
+}
+
+.height {
+    height: 48.3vh;
+}
+
+.white {
+    background: #feceab;
+    height: 100vh;
+    position: relative;
+}
+
+.position-img {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.luxury-2 {
+    width: 500px;
 }
 
 /*-------------------------------------------*/
