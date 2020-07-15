@@ -8,6 +8,7 @@
             name="description"
             content="Your source for California luxury homes"
         />
+        <meta name="keyword" content="real estate, california real estate">
 
         <link
             href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap"
@@ -429,6 +430,8 @@
         <!-- TECHSCROLL JS -->
         <script src="https://unpkg.com/scrollreveal"></script>
 
+        <script src="./js/techscroll.js"></script>
+
         <!-- BOOTSTRAP JS  -->
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -445,97 +448,5 @@
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"
         ></script>
-
-        <script>
-            ScrollReveal().reveal(".hero-text-box", {
-                duration: 2000,
-                origin: "top",
-                distance: "30rem",
-            });
-            ScrollReveal().reveal(".navbar", {
-                duration: 2000,
-                origin: "bottom",
-            });
-            ScrollReveal().reveal(".about-us", {
-                duration: 2000,
-                origin: "top",
-                distance: "30rem",
-            });
-            ScrollReveal().reveal(".location", {
-                duration: 2000,
-                origin: "top",
-                distance: "30rem",
-            });
-            ScrollReveal().reveal("video", {
-                duration: 2000,
-                origin: "bottom",
-                distance: "40rem",
-                viewFactor: 0.2,
-            });
-            ScrollReveal().reveal(".hg-list", {
-                duration: 2000,
-                origin: "top",
-                distance: "30rem",
-            });
-            ScrollReveal().reveal(".exclusive", {
-                duration: 2000,
-                origin: "bottom",
-                distance: "30rem",
-            });
-            ScrollReveal().reveal("#showcase h2, p", {
-                duration: 2000,
-                origin: "bottom",
-                delay: 1000,
-            });
-            ScrollReveal().reveal("#gallery", {
-                duration: 2000,
-                origin: "bottom",
-                distance: "50rem",
-                delay: 1500,
-            });
-            ScrollReveal().reveal("#showcase-2 h2, p", {
-                duration: 2000,
-                origin: "bottom",
-                delay: 1000,
-            });
-            ScrollReveal().reveal("#feature .f-logo", {
-                duration: 2000,
-                origin: "bottom",
-                distance: "30rem",
-                delay: 1000,
-            });
-            ScrollReveal().reveal("#footer .hero-logo", {
-                duration: 2000,
-                origin: "bottom",
-                delay: 1500,
-            });
-        </script>
-
-        <script>
-            $(function () {
-                // Smooth Scrolling
-                $('a[href*="#"]:not([href="#"])').click(function () {
-                    if (
-                        location.pathname.replace(/^\//, "") ==
-                            this.pathname.replace(/^\//, "") &&
-                        location.hostname == this.hostname
-                    ) {
-                        var target = $(this.hash);
-                        target = target.length
-                            ? target
-                            : $("[name=" + this.hash.slice(1) + "]");
-                        if (target.length) {
-                            $("html, body").animate(
-                                {
-                                    scrollTop: target.offset().top,
-                                },
-                                1000
-                            );
-                            return false;
-                        }
-                    }
-                });
-            });
-        </script>
     </body>
 </html>
