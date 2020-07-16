@@ -23,6 +23,12 @@ ScrollReveal().reveal("p", {
     delay: 2000,
 });
 
+ScrollReveal().reveal("design-lead-sm", {
+    duration: 2000,
+    origin: "top",
+    distance: "10px",
+    delay: 2000,
+});
 
 ScrollReveal().reveal("#footer .hero-logo", {
     duration: 2000,
@@ -30,5 +36,3 @@ ScrollReveal().reveal("#footer .hero-logo", {
     distance: "10px",
     delay: 1500,
 });
-
-

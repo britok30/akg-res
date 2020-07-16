@@ -54,6 +54,14 @@ ul {
 
 .design-lead {
     font-size: 15rem;
+}
+
+.design-lead-sm {
+    font-size: 7rem;
+}
+
+.design-lead,
+.design-lead-sm {
     letter-spacing: 3px;
     color: #fff;
     font-weight: 300;
@@ -74,6 +82,12 @@ p {
 .design-p {
     font-size: 5rem;
     font-weight: 400;
+}
+
+.architect-txt {
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 3px;
 }
 
 .about-us {
@@ -146,7 +160,9 @@ p {
 
 .losangeles,
 .luxury-1,
-.luxury-3 {
+.luxury-3,
+.architect-1,
+.architect-2 {
     height: 100%;
     width: 100%;
 }
@@ -175,6 +191,12 @@ p {
 
 .luxury-2 {
     width: 500px;
+}
+
+.interior,
+.interior-2 {
+    height: 100%;
+    width: 100%;
 }
 
 /*-------------------------------------------*/
@@ -299,14 +321,20 @@ p {
         margin-top: 3rem;
     }
 
+    .design-lead-sm {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+
     p {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 
     .design-p {
         font-size: 1.3rem;
         margin-top: 3rem;
-        font-weight: 100;
+        font-weight: 400;
     }
 
     .hero-text-box {
@@ -318,7 +346,7 @@ p {
     }
 
     .position-img {
-        top: 40%;
+        top: 25%;
         left: 18%;
     }
 
@@ -354,7 +382,8 @@ p {
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 
     .design-p {
