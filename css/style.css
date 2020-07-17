@@ -45,7 +45,7 @@ ul {
 }
 
 .whitespace-2 {
-    margin: 2rem 0;
+    margin: 8rem 0;
 }
 
 /*-------------------------------------------*/
@@ -75,12 +75,12 @@ ul {
 /*-------------------------------------------*/
 
 p {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 100;
 }
 
 .design-p {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
 }
 
@@ -173,10 +173,6 @@ p {
     width: 80%;
 }
 
-.height {
-    height: 45.6vh;
-}
-
 .white {
     background: #feceab;
     height: 100vh;
@@ -185,8 +181,8 @@ p {
 
 .position-img {
     position: absolute;
-    top: 10%;
-    left: 25%;
+    top: 5%;
+    left: 15%;
 }
 
 .luxury-2 {
@@ -278,6 +274,10 @@ p {
 
 #footer .hero-logo {
     padding: 5rem;
+}
+
+#footer p {
+    font-size: 1rem;
 }
 
 .icon {
@@ -523,5 +523,11 @@ p {
 @media (min-width: 1441px) {
     p {
         font-size: 1.5rem;
+    }
+
+    .position-img {
+        position: absolute;
+        top: 10%;
+        left: 25%;
     }
 }
